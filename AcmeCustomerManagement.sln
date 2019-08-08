@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.Win", "ACM.Win\ACM.Win.csproj", "{0F35C140-8D74-475F-B914-A373BAA5D262}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ACM.BL", "ACM.BL\ACM.BL.csproj", "{129A4585-48F2-44EB-B733-978E3C5CABB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core.Common", "Core.Common\Core.Common.csproj", "{01C1B886-E3A1-4904-B3EB-BDB79C71B2E3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0F35C140-8D74-475F-B914-A373BAA5D262}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0F35C140-8D74-475F-B914-A373BAA5D262}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0F35C140-8D74-475F-B914-A373BAA5D262}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0F35C140-8D74-475F-B914-A373BAA5D262}.Release|Any CPU.Build.0 = Release|Any CPU
+		{129A4585-48F2-44EB-B733-978E3C5CABB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{129A4585-48F2-44EB-B733-978E3C5CABB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{129A4585-48F2-44EB-B733-978E3C5CABB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{129A4585-48F2-44EB-B733-978E3C5CABB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01C1B886-E3A1-4904-B3EB-BDB79C71B2E3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01C1B886-E3A1-4904-B3EB-BDB79C71B2E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01C1B886-E3A1-4904-B3EB-BDB79C71B2E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01C1B886-E3A1-4904-B3EB-BDB79C71B2E3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0EB5A877-CD6A-4020-857B-2AA3D9B0ADBE}
+	EndGlobalSection
+EndGlobal
