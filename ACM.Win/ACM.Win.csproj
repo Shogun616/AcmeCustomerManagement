@@ -51,6 +51,12 @@
     <Compile Include="OrderWin.designer.cs">
       <DependentUpon>OrderWin.cs</DependentUpon>
     </Compile>
+    <Compile Include="PedometerWin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PedometerWin.designer.cs">
+      <DependentUpon>PedometerWin.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -58,15 +64,18 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="OrderWin.resx">
-      <DependentUpon>OrderWin.cs</DependentUpon>
-    </EmbeddedResource>
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\ACM.BL\ACM.BL.csproj">
       <Project>{129a4585-48f2-44eb-b733-978e3c5cabb7}</Project>
       <Name>ACM.BL</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="OrderWin.resx">
+      <DependentUpon>OrderWin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PedometerWin.resx">
+      <DependentUpon>PedometerWin.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

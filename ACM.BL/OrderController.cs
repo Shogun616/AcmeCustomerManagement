@@ -24,7 +24,7 @@ namespace ACM.BL
         public void PlaceOrder(Customer customer, 
                                  Order order,
                                  Payment payment,
-                                 bool allowSplitOrders, bool emailReceipt )
+                                 bool allowSplitOrders, bool emailReceipt)
         {
            
             customerRepository.Add(customer);

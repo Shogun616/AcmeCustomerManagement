@@ -6,6 +6,12 @@ namespace ACM.Win
 {
     public partial class OrderWin : Form
     {
+
+        public OrderWin()
+        {
+            InitializeComponent();
+        }
+       
         private void button1_Click(object sender, EventArgs e)
         {
             PlaceOrder();
@@ -14,19 +20,19 @@ namespace ACM.Win
         private void PlaceOrder()
         {
             var customer = new Customer();
-            //Populate the customer instance
+            // Populate the customer instance
 
             var order = new Order();
-            //Populate the order instance
+            // Populate the order instance
 
             var payment = new Payment();
-            //Populate the payment info from the UI
+            // Populate the payment info from the UI
 
             var orderController = new OrderController();
             orderController.PlaceOrder(customer, order, payment, 
-                allowSplitOrders:false,
+                allowSplitOrders:false, 
                 emailReceipt:true);
         }
+
     }
 }
-
