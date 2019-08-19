@@ -12,8 +12,14 @@ namespace ACM.Win
             InitializeComponent();
         }
        
-        private void button1_Click(object sender, EventArgs e)
+        private void Button1_Click(object sender, EventArgs e)
         {
+            Button button = sender as Button;
+            if(button != null)
+            {
+                button.Text = "Processing ...";
+            }
+        
             PlaceOrder();
         }
 
@@ -33,6 +39,5 @@ namespace ACM.Win
                 allowSplitOrders:false, 
                 emailReceipt:true);
         }
-
     }
 }
